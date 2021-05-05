@@ -1,0 +1,4 @@
+Explain that then physical transaction and logical transaction has marked the startegy as rollback for the checked exception
+
+hence following is not thrown:  javax.persistence.RollbackException: Transaction marked as rollbackOnly
+

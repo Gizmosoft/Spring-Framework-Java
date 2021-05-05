@@ -1,0 +1,2 @@
+Explain one Logical transaction declares a new Physical transaction scope for itself hence
+rollback done of the other transaction doesn't impact the current transaction

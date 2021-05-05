@@ -1,0 +1,10 @@
+Resource:
+From JSR-250
+
+Can be used for field and setter DI, 
+	not for constructors
+if you try to use with constructor then it will give compilation error.
+	
+Can be used with name @Resource("beanName") or without 
+If not provided, name is inferred from field name or tries injection by type if name fails
+	for setter setAmount() --> "amount" name

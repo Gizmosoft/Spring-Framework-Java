@@ -1,0 +1,2 @@
+Explain that checked exception will not cause the roll back automatically of current/other logical transactions
+and physical transactions

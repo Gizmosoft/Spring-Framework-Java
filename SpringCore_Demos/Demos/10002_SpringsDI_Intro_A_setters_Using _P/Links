@@ -1,0 +1,9 @@
+https://www.mkyong.com/spring/how-to-define-bean-properties-in-spring/
+https://sites.google.com/site/ganeshgowtham/Home/submissions/spring-framework-p-notation-schema-example
+
+
+One of the valid use of p-namespace is:
+<bean name="p-namespace" class=""/>
+p name space and c name space dont have xsd
+
+please try to make the setter private and then try to access the setter

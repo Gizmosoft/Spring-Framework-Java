@@ -1,0 +1,18 @@
+[A] JSR-330 - Dependency Injection for Java
+Alternative DI annotations
+Spring is valid JSR-330 implementation
+	@ComponentScan also scans for JSR-330 annotations
+	
+	@Inject for injecting dependencies 
+		Provides subset of @Autowired functionality, but often is enough
+		unlike @Autowired it Always required
+	
+	@Named - Alternative to @Component 
+		can be used With or without bean name - @Named / @Named("beanName")
+		Default scope is "prototype"
+		But InSide Spring Container Always Scope is Singleton
+
+	@Singleton - instead of @Named for singleton scoped beans
+	
+	
+we can mix JSR330 annotations with Spring Annotations Autowiered or StereoType Annotations.

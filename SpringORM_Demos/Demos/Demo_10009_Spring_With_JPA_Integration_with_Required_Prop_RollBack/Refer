@@ -1,0 +1,5 @@
+Explain that run time exception will cause the roll back for the current logical transaction
+and physical transactions and other related logical transactions
+
+In order for the rollback to happen exception should be throw by the method
+even if exception is handled it has to be rethrown

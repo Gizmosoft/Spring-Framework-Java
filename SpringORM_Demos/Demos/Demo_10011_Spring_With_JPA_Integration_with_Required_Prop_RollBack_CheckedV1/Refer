@@ -1,0 +1,5 @@
+Explain that if logical Transaction marks strategy as rollback for a checked exception
+then physical transaction should also mark the startegy as rollback for the checked exception
+
+otherwise  javax.persistence.RollbackException: Transaction marked as rollbackOnly
+will be thrown
