@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="1.0" xmlns="http://java.sun.com/xml/ns/persistence/orm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+<named-query name="EMP.query1_getAllEmployeesStringFunctions">
+<query>
+select k, upper(k.name),lower(k.name),
+substring(k.name,1,2), length(k.name)
+from EmployeeEntity k
+</query>
+</named-query>
+</entity-mappings>
